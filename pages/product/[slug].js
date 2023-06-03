@@ -26,7 +26,7 @@ const ProductDetails = ({ products, queriedProducts }) => {
       <div className="product-detail-container">
         <div>
           <div className="image-container">
-            <img className="product-detail-image" src={urlFor(image && image[imagePosition])} />
+            <img className="product-detail-image" src={urlFor(image && image[imagePosition])} alt="other-product-type"/>
           </div>
           <div className="small-images-container">
             {image?.map((item,index)=>(

@@ -87,7 +87,7 @@ const Cart = () => {
               {console.log(foundProduct.image)}
               return (
                 <div className="product" key={foundProduct._id}>
-                <img src={urlFor(foundProduct?.image[0])} className="cart-product-image" />
+                <img src={urlFor(foundProduct?.image[0])} className="cart-product-image" alt="cart-products-image"/>
 
 
 
